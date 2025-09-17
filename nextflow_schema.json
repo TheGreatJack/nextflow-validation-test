@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com///nextflow_schema.json",
+  "title": " pipeline parameters",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "param1": {
+      "type": "integer",
+      "default": 120
+    },
+    "param2": {
+      "type": "boolean",
+      "default": true
+    },
+    "param3": {
+      "type": "string",
+      "default": "this is a string"
+    }
+  }
+}
